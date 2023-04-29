@@ -1,0 +1,14 @@
+.offerBar{
+    background-color: rgb(196, 106, 4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // padding: 10px 0;
+    height: 40px;
+    
+    p{
+        padding-top: 5px;
+        font-size: 14px;
+        color: white;
+    }
+}

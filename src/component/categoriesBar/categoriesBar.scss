@@ -1,0 +1,24 @@
+ .categoriesSection {
+     border-bottom: 1px solid gray;
+     display: flex;
+     justify-content: space-around;
+     font-family: sans-serif;
+
+     .left {
+         padding: 20px 0;
+         font-weight: 400;
+     }
+
+     .right {
+         padding: 20px 0;
+         display: flex;
+
+         p {
+             padding: 0px 10px;
+             margin: 0px 4px;
+
+             border-radius: 5px;
+         }
+
+     }
+ }

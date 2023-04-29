@@ -1,0 +1,63 @@
+.register {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(109, 117, 252);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .registerConatainer {
+        // background-color: blue; 
+        border: 2px solid gray;
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 30%;
+        height: 65%;
+        border-radius: 5px;
+
+        .logo {
+            margin-bottom: 30px;
+            font-weight: bold;
+            font-size: 40px;
+            color: blue;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+
+            input {
+                width: 15vw;
+                padding: 10px 10px;
+                margin: 10px 0px;
+                border: 1px solid gray;
+                outline: none;
+                font-size: 18px;
+                color: gray;
+
+                &::placeholder {
+                    color: rgb(176, 168, 168);
+                }
+            }
+
+            button {
+
+                padding: 10px 5px;
+                color: #fff;
+                background-color: blue;
+                border: none;
+                cursor: pointer;
+            }
+        }
+
+        p {
+            color: gray;
+            cursor: pointer;
+        }
+    }
+}
